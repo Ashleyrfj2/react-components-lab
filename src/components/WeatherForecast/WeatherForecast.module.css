@@ -1,0 +1,46 @@
+
+
+
+
+div.weather{
+color: #a91f1f;
+
+font-size: large;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  
+  flex-flow: column;
+  justify-content:space-evenly;
+  display: flex;
+  font-family:Georgia;
+ 
+  background-color: rgba(48, 63, 87, 0.462);
+
+
+}
+.weather{
+ border: 1px solid #ccc;
+column-gap: 5px;
+flex-direction: row;
+flex-flow: row;
+align-content: center;
+font-style: oblique;
+
+}
+
+
+
+section {
+  display: flex; 
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.weather span {
+  font-weight: bold;
+  
+}
